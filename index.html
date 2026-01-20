@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VITDATING</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="top">
+      <div class="logo">VITDATING</div>
+      <div class="tag">Telegram Mini App</div>
+    </header>
+
+    <section class="card">
+      <div class="h">Старт</div>
+      <p class="muted">
+        Это минимальный интерфейс. Дальше подключим анкеты, ленту, чат, встречи, гео-безопасность и отзывы.
+      </p>
+
+      <button id="btn" class="btn">Проверить Telegram WebApp</button>
+      <div id="out" class="out"></div>
+    </section>
+
+    <section class="card">
+      <div class="h">Безопасность</div>
+      <ul class="list">
+        <li>Геопозиция — только оператору безопасности и только с согласия.</li>
+        <li>Отзывы после встречи — обязательны.</li>
+        <li>Анти-фрод — правила + ИИ.</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
